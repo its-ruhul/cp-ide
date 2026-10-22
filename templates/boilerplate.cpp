@@ -1,9 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// --- Speed I/O ---
-#define FAST_IO ios_base::sync_with_stdio(false); cin.tie(NULL);
-
 // --- Type Aliases ---
 using ll = long long;
 using pii = pair<int, int>;
@@ -28,7 +25,7 @@ void solve() {
 }
 
 int main() {
-    FAST_IO;
+    ios_base::sync_with_stdio(false); cin.tie(NULL);
 
     int t = 1;
     cin >> t;

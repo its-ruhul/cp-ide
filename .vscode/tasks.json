@@ -8,7 +8,7 @@
                 "command": "cmd",
                 "args": [
                     "/C",
-                    "g++ \"${file}\" -o \"${fileDirname}\\${fileBasenameNoExtension}.exe\" && \"${fileDirname}\\${fileBasenameNoExtension}.exe\" < \"${fileDirname}\\input.txt\" > \"${fileDirname}\\output.txt\""
+                    "g++ \"${file}\" -std=c++20 -Wall -Wextra -Wshadow -fdiagnostics-color=always -o \"${fileDirname}\\${fileBasenameNoExtension}.exe\" && \"${fileDirname}\\${fileBasenameNoExtension}.exe\" < \"${fileDirname}\\input.txt\" > \"${fileDirname}\\output.txt\" & exit 0"
                 ]
             },
             "group": {
@@ -17,7 +17,11 @@
             },
             "presentation": {
                 "reveal": "silent",
-                "panel": "shared"
+                "panel": "shared",
+                "focus": false,
+                "clear": true,
+                "echo": false,
+                "showReuseMessage": false
             },
             "problemMatcher": ["$gcc"]
         }
