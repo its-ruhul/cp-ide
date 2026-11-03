@@ -20,3 +20,8 @@
 - [ ] https://cses.fi/problemset/task/1662:
 - Instead of using a nested loop, we can use frequency map (didn't realise that)
 - Didn't account for % operator behaving differently for negative numbers.
+
+- [ ] https://cses.fi/problemset/task/1661:
+- Should have used map to find the sub array with size x.
+- for that should have learnt the standard algorithm (make a map that keeps track of previous prefix_sum and add the arrays)
+- didn't realise unordered_map goes from O(N) -> O(N^2) for bigger N, shoudl have used map instead O(Nlog(N))
