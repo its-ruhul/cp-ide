@@ -25,3 +25,6 @@
 - Should have used map to find the sub array with size x.
 - for that should have learnt the standard algorithm (make a map that keeps track of previous prefix_sum and add the arrays)
 - didn't realise unordered_map goes from O(N) -> O(N^2) for bigger N, shoudl have used map instead O(Nlog(N))
+
+- [ ] https://usaco.org/index.php?page=viewproblem2&cpid=738:
+- didn't realise a vector containing 10^9 int will take 3.7GB of RAM.
